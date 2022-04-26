@@ -26,6 +26,6 @@ if N1.isconnected():
 
     
  #tester avec la commande linux en ssh:
- pi@ohkod:~/automate/ohkod_relais/server/test $ nc -l -vv -p 9999
-Listening on 0.0.0.0 5000
-Connection received on ohkod 58466
+pi@ohkod:~/automate/ohkod_relais/server/test $ nc -l -vv -p 9999
+Listening on 0.0.0.0 9999
+Connection received on espressif 62682
