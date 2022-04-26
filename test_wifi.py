@@ -23,3 +23,9 @@ if N1.isconnected():
     addr=('192.168.1.46',9999)
     s.connect(addr)
     s.send("wio avec ohkod")
+
+    
+ #tester avec la commande linux en ssh:
+ pi@ohkod:~/automate/ohkod_relais/server/test $ nc -l -vv -p 5000
+Listening on 0.0.0.0 5000
+Connection received on ohkod 58466
